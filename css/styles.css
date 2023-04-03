@@ -1,0 +1,97 @@
+* {
+    letter-spacing: 0.02em;
+    line-height: normal;
+    box-sizing: border-box;
+    font-family: Arial, "Times New Roman", sans-serif;
+}
+img{
+    width: 100%;
+}
+body{
+
+    background: #151515;
+    height: 100vh;
+    margin:0;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    color:#fff;
+}
+button {
+    background: mediumslateblue;
+    color:#fff;
+    height:30px;
+    padding:0 10px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(41 41 41 0.74);
+}
+table th, table td{
+    color:#fff;
+}
+/* Header start */
+.header{
+    height:7%;
+    width:100%;
+    border-bottom:2px solid mediumslateblue;
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+}
+
+
+.registration{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.registration li{
+
+}
+.log-in{
+
+}
+.sign-up{
+
+}
+/* Header end */
+
+.users, .accountWrap{
+    padding:50px 20px;
+}
+
+.profile, .account {
+
+    height: auto;
+    border:2px solid mediumslateblue;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* scroll bar Start */
+/* width */
+#content::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+#content::-webkit-scrollbar-track {
+    background: #151515;
+}
+
+/* Handle */
+#content::-webkit-scrollbar-thumb {
+    background: mediumslateblue;
+}
+
+/* Handle on hover */
+#content::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+/* scroll bar End */
